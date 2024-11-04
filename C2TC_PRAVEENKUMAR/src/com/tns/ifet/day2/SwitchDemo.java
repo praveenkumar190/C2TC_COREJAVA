@@ -1,4 +1,4 @@
-package tns.ifet.day2;
+package com.tns.ifet.day2;
 
 public class SwitchDemo {
 
