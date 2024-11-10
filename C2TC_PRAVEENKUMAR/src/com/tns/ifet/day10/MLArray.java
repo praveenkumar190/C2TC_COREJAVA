@@ -1,5 +1,5 @@
 //Program to define class with Multidimensional array
-package com.tns.ifet.day10.arrays;
+package com.tns.ifet.day10;
 
 public class MLArray
 {

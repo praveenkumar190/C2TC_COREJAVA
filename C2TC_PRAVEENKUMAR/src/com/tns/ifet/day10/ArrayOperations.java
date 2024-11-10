@@ -1,5 +1,5 @@
 //Program to define class with array operations
-package com.tns.ifet.day10.arrays;
+package com.tns.ifet.day10;
 
 public class ArrayOperations
 {

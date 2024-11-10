@@ -1,5 +1,5 @@
 //Program to demonstrate array operations
-package com.tns.ifet.day10.arrays;
+package com.tns.ifet.day10;
 
 //Driver class
 public class Driver {

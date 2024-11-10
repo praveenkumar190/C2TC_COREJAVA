@@ -1,5 +1,5 @@
 //Program to Demonstrate Arrays Class Methods
-package com.tns.ifet.day10.arrays;
+package com.tns.ifet.day10;
 
 import java.util.Arrays;
 

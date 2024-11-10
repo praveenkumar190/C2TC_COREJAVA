@@ -1,5 +1,5 @@
 //Student entity
-package com.tns.ifet.day10.arrays;
+package com.tns.ifet.day10;
 
 public class Student {
 	private int rollNo;

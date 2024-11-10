@@ -1,5 +1,5 @@
 //Program to demonstrate Array of Student Objects
-package com.tns.ifet.day10.arrays;
+package com.tns.ifet.day10;
 
 public class ArrayOfObjectsDemo {
 

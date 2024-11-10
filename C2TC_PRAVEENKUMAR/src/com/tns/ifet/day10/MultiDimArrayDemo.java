@@ -1,5 +1,5 @@
 //Program to demonstrate Multidimensional Array
-package com.tns.ifet.day10.arrays;
+package com.tns.ifet.day10;
 
 public class MultiDimArrayDemo {
 	public static void main(String[] args) {
