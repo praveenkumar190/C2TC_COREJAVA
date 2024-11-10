@@ -1,5 +1,5 @@
 //BankImpl class implementing the Bank interface
-package com.tnsif.day8.interfaces.implementinginterfaces;
+package com.tns.ifet.day8.interfaces.implementinginterfaces;
 
 public class BankImpl implements Bank {
  @Override

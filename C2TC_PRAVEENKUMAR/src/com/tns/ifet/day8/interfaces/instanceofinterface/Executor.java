@@ -1,5 +1,5 @@
 //Program to demonstrate interface instance using factory method
-package com.tnsif.day8.interfaces.instanceofinterface;
+package com.tns.ifet.day8.interfaces.instanceofinterface;
 
 public class Executor {
 	public static void main(String args[]) {

@@ -1,5 +1,5 @@
 //Child class implements inner interface
-package com.tnsif.day8.interfaces.nestedinterfaces;
+package com.tns.ifet.day8.interfaces.nestedinterfaces;
 
 public class NestedInterfaceClass implements MyInterface.MyInnerInterface{
 

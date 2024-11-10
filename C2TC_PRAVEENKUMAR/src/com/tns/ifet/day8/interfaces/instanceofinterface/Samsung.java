@@ -1,5 +1,5 @@
 //Program to define concrete class that implements the Phone interface.
-package com.tnsif.day8.interfaces.instanceofinterface;
+package com.tns.ifet.day8.interfaces.instanceofinterface;
 
 public class Samsung implements Phone {
 

@@ -1,5 +1,5 @@
 //Program to define a class implementing the RegisteredStudent marker interface
-package com.tnsif.day8.interfaces.markerinterfaces;
+package com.tns.ifet.day8.interfaces.markerinterfaces;
 
 public class Student implements Registrable {
 	private int id;

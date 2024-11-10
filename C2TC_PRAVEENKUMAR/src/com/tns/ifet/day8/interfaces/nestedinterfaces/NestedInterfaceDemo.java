@@ -1,5 +1,5 @@
 //program to demonstrate nested interface
-package com.tnsif.day8.interfaces.nestedinterfaces;
+package com.tns.ifet.day8.interfaces.nestedinterfaces;
 
 public class NestedInterfaceDemo {
 

@@ -1,5 +1,5 @@
 //Main class for Bank application
-package com.tnsif.day8.interfaces.implementinginterfaces;
+package com.tns.ifet.day8.interfaces.implementinginterfaces;
 
 public class BankApplication {
  public static void main(String[] args) {

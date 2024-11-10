@@ -1,5 +1,5 @@
 //Account class
-package com.tnsif.day8.interfaces.implementinginterfaces;
+package com.tns.ifet.day8.interfaces.implementinginterfaces;
 
 public class Account {
  private int accNo;
