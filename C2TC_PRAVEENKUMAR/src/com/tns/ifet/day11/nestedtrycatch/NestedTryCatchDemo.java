@@ -1,5 +1,5 @@
 //Program to demonstrate nested try catch - Driver Class
-package com.tns.ifet.day11.fnallyblock.nestedtrycatch;
+package com.tns.ifet.day11.nestedtrycatch;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

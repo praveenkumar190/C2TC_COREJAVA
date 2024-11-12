@@ -1,5 +1,5 @@
 //Program to define Array Operations
-package com.tns.ifet.day11.fnallyblock.v1;
+package com.tns.ifet.day11.v1;
 
 public class ArrayOperations {
 

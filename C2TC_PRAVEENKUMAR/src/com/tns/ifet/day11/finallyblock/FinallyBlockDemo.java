@@ -1,11 +1,11 @@
-//Program to demonstrate Finally block
+//program to demonstrate finally block
 
-package com.tns.ifet.day11.fnallyblock.v1;
+package com.tns.ifet.day11.finallyblock;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class FinallyBlock {
+public class FinallyBlockDemo {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -13,9 +13,8 @@ public class FinallyBlock {
 			System.out.print("Enter the number : ");
 			int number = scanner.nextInt();
 			System.out.println(number % 2 == 0 ? number + " is Even" : number + " is Odd");
-			return;
 		} catch (InputMismatchException e) {
-			System.err.println("Invalid input...");
+			System.out.println("Invalid input...");
 
 		} finally {
 			System.out.println("In Finally....");

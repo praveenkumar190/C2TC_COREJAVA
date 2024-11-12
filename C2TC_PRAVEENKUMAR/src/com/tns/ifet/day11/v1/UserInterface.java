@@ -1,6 +1,6 @@
 //program to demonstrate Index Out of Bounds Exception
 
-package com.tns.ifet.day11.fnallyblock.v1;
+package com.tns.ifet.day11.v1;
 
 public class UserInterface {
 

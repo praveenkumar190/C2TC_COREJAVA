@@ -1,5 +1,5 @@
 //program to demonstrate try catch block
-package com.tns.ifet.day11.fnallyblock.trycatch;
+package com.tns.ifet.day11.trycatch;
 
 public class TryCatchExample {
 	static int performDivision(int x, int y) {

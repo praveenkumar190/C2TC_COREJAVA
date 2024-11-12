@@ -1,5 +1,5 @@
 //Program to demonstrate unchecked exception
-package com.tns.ifet.day11.fnallyblock;
+package com.tns.ifet.day11;
 
 //Unchecked Exceptions are Runtime Exception
 public class UncheckedException {

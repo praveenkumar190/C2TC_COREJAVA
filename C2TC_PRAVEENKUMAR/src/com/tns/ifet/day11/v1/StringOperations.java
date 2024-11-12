@@ -1,5 +1,5 @@
 //Program to handle exceptions
-package com.tns.ifet.day11.fnallyblock.v1;
+package com.tns.ifet.day11.v1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

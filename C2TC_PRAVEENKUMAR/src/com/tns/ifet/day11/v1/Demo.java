@@ -1,5 +1,5 @@
 //Program without exception handling
-package com.tns.ifet.day11.fnallyblock.v1;
+package com.tns.ifet.day11.v1;
 public class Demo {
 
 	public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //Program to demonstrate nested Try Catch Block
-package com.tns.ifet.day11.fnallyblock.v1;
+package com.tns.ifet.day11.v1;
 
 public class NestedTryBlockEx {
 	public static int divide(int x, int y) {
