@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Order Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .container { background: white; padding: 20px; border-radius: 8px; max-width: 500px; margin: auto; }
+        input, button { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background-color: #28a745; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Place an Order</h2>
+        <input type="text" id="customerId" placeholder="Customer ID">
+        <input type="text" id="productIds" placeholder="Product IDs (comma separated)">
+        <input type="text" id="totalAmount" placeholder="Total Amount">
+        <button onclick="placeOrder()">Place Order</button>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        function placeOrder() {
+            const customerId = document.getElementById('customerId').value;
+            const productIds = document.getElementById('productIds').value.split(',').map(id => parseInt(id.trim()));
+            const totalAmount = parseFloat(document.getElementById('totalAmount').value);
+
+            fetch('http://localhost:8080/api/orders', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ customerId, productIds, totalAmount })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('response').innerHTML = 'Order placed successfully! ID: ' + data.id;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
